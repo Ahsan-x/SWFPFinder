@@ -29,48 +29,12 @@ Requirements
 
 Usage
 --
+-  this tool you can use it during bug hunting for find a potential swf parameters..
 
 ```shell
-$ bash swfpfinder.sh https://raw.githubusercontent.com/evilcos/xss.swf/master/xss.swf
+$ bash swfpfinder.sh https://wwww.example.com/home.swf
 
-Event
-SecurityErrorEvent
-xss_fla
-MainTimeline
-MovieClip
-param
-Object
-action
-String
-cmd
-attack
-get_complete
-get_sec_error
-frame1
-URLLoader
-navigateToURL
-URLRequest
-_self
-_blank
-COMPLETE
-addEventListener
-SECURITY_ERROR
-ExternalInterface
-eval
-call
-alert
-location
-open
-get
-stop
-root
-loaderInfo
-parameters
-a
-c
-addFrameScript
-EventDispatcher
-DisplayObject
-InteractiveObject
-DisplayObjectContainer
-Sprite
+load_external-swf-file
+inject-me
+blabla
+```
