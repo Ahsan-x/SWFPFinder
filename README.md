@@ -25,7 +25,7 @@ Requirements
 --
 - [swfmill](https://github.com/djcsdy/swfmill)
    - for linux `apt-get install swfmill`
-   - for macosx `brew install swfmill`
+   - for macos `brew install swfmill`
 
 Usage
 --
